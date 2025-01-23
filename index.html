@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Skill Course Detail</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Course Overview Section -->
+    <section id="course-overview">
+        <div class="container">
+            <h1 class="course-title">Complete Web Development Bootcamp</h1>
+            <p class="skill-level">Skill Level: Intermediate</p>
+            <p class="course-duration">Duration: 10 Weeks</p>
+            <p class="total-videos">Total Videos: 20</p>
+            <p class="average-rating">Average Rating: 4.7/5</p>
+            <button class="enroll-button">Enroll</button>
+        </div>
+    </section>
+
+    <!-- Video List Section -->
+    <section id="video-list">
+        <div class="container">
+            <h2>Videos</h2>
+            <div class="video-item">
+                <p class="video-title">Introduction to HTML</p>
+                <p class="video-duration">Duration: 15 min</p>
+                <p class="video-views">Views: 5K</p>
+                <input type="checkbox" id="video1" class="video-completed">
+                <label for="video1">Mark as Completed</label>
+            </div>
+            <div class="video-item">
+                <p class="video-title">Images, Lists, and Tables in HTML</p>
+                <p class="video-duration">Duration: 25 min</p>
+                <p class="video-views">Views: 9K</p>
+                <input type="checkbox" id="video2" class="video-completed">
+                <label for="video2">Mark as Completed</label>
+            </div>
+            <div class="video-item">
+                <p class="video-title">CSS Basics</p>
+                <p class="video-duration">Duration: 20 min</p>
+                <p class="video-views">Views: 8K</p>
+                <input type="checkbox" id="video2" class="video-completed">
+                <label for="video2">Mark as Completed</label>
+            </div>
+            <div class="video-item">
+                <p class="video-title">CSS properties</p>
+                <p class="video-duration">Duration: 12 min</p>
+                <p class="video-views">Views: 19K</p>
+                <input type="checkbox" id="video2" class="video-completed">
+                <label for="video2">Mark as Completed</label>
+            </div>
+            <!-- Additional video items will follow -->
+        </div>
+    </section>
+
+    <!-- Video Player Section -->
+    <section id="video-player">
+        <div class="container">
+            <h2>Video Player</h2>
+            <div class="player">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/l1EssrLxt7E" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-summary">
+                <h3>AI-Generated Summary</h3>
+                <p>This video covers the basics of HTML, including structure, elements, and common tags used in web development.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificate">
+        <h3>Watch all videos to get a certificate!</h3>
+       <button class="certificate-btn" style="display: none;">Download Certificate</button>
+     
+     </section>
+
+    <!-- Notes and Tools Section -->
+    <section id="notes-tools">
+        <div class="container">
+            <h2>Notes & Tools</h2>
+            <div class="notes">
+                <h3>Add Your Notes</h3>
+                <textarea rows="5" placeholder="Add your notes here..."></textarea>
+                <button class="save-notes">Save Notes</button>
+            </div>
+            <div class="ai-questions">
+                <h3>AI-Generated Questions</h3>
+                <ul>
+                    <li>What are HTML tags?</li>
+                    <li>Explain the basic structure of an HTML document.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Progress Tracker -->
+    <section id="progress-tracker">
+        <div class="container">
+            <h2>Progress Tracker</h2>
+            <div class="progress-bar">
+                <div class="progress" style="width: 30%;"></div>
+            </div>
+            <p>30% Completed</p>
+        </div>
+    </section>
+
+
+
+    <!-- Rate the Course -->
+    <section id="rate-course">
+        <div class="container">
+            <h2>Rate the Course</h2>
+            <label for="rating">Leave your rating: </label>
+            <select id="rating">
+                <option value="5">5 - Excellent</option>
+                <option value="4">4 - Good</option>
+                <option value="3">3 - Average</option>
+                <option value="2">2 - Poor</option>
+                <option value="1">1 - Very Poor</option>
+            </select>
+            <button class="submit-rating">Submit Rating</button>
+        </div>
+    </section>
+
+</body>
+</html>

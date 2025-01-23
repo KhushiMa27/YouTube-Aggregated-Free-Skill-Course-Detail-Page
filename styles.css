@@ -1,0 +1,248 @@
+/* Reset some default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Base Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: orange;
+    color: #333;
+    padding: 20px;
+}
+
+/* Container for each section */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+/* Course Overview */
+#course-overview {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.course-title {
+    font-size: 2.8em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.skill-level,
+.course-duration,
+.total-videos,
+.average-rating {
+    margin-bottom: 8px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.enroll-button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.enroll-button:hover {
+    background-color: #e55d00;
+}
+
+/* Video List Section */
+#video-list {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Video Item */
+.video-item {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.video-item:hover {
+    background-color: #e0e0e0;
+}
+
+.video-title {
+    font-size: 1.4em;
+    color: #333;
+}
+
+.video-duration,
+.video-views {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Video Player Section */
+#video-player {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.player iframe {
+    width: 100%;
+    max-width: 640px;
+    height: 360px;
+    margin-bottom: 20px;
+}
+
+/* AI-Generated Summary */
+.video-summary {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Notes and Tools Section */
+#notes-tools {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.save-notes {
+    background-color: #00aaff;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.save-notes:hover {
+    background-color: #0099cc;
+}
+
+/* AI-Generated Questions */
+.ai-questions ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #555;
+}
+
+.ai-questions li {
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+
+/* Progress Tracker */
+#progress-tracker {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.progress-bar {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.progress {
+    background-color: #ff6600;
+    height: 24px;
+    width: 30%;
+    transition: width 0.3s ease-in-out;
+}
+
+/* Job-Seeker Tips */
+#certificate {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.certificate h3 {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #555;
+}
+
+
+/* Rate the Course */
+#rate-course {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#rating {
+    margin-bottom: 12px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.submit-rating {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.submit-rating:hover {
+    background-color: #e55d00;
+}
